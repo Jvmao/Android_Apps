@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Proyecto_3</string>
+    <string name="tituloSplash">PROTECTO 3</string>
+    <string name="imagen_titulo">Imagen Principal Menu</string>
+    <string name="icono_menu">Iconos Menu</string>
+    <string name="perfilTitulo">PERFIL</string>
+    <string name="juegoTitulo">JUEGO</string>
+    <string name="instTitulo">INSTRUCCIONES</string>
+    <string name="infoTitulo">INFORMACIÓN</string>
+</resources>
