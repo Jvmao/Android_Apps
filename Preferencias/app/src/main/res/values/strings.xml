@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Preferencias</string>
+    <string name="titulo">Guardando Preferencias</string>
+    <string name="textV1">Nombre</string>
+    <string name="textV2">DNI</string>
+    <string name="textV3">Fecha Nacimiento</string>
+    <string name="textV4">Sexo</string>
+    <string name="bnt1">Guardar Datos</string>
+    <string name="check1">Hombre</string>
+    <string name="check2">Mujer</string>
+    <string name="btn2">Recuperar Datos</string>
+</resources>
