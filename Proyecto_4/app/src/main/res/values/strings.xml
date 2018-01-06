@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Proyecto_4</string>
+    <string name="textSplash">PROYECTO 4</string>
+    <string name="imageViewMenu">Imagen Menu</string>
+    <string name="imageMenu">Imagenes Menú</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tituloDinamico">Bienvenido al Proyecto 4</string>
+</resources>

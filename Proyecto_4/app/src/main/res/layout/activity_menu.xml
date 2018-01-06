@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:scrollbarSize="5dp"
+    android:scrollbars="vertical"
+    tools:context="com.josevicente.proyecto_4.Activities.MenuActivity">
+
+
+    <!--Fragment del Menú Estático-->
+    <!--<fragment
+        android:id="@+id/fragmentMenu"
+        android:name="com.josevicente.proyecto_4.Fragments.MenuFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_menu" />-->
+    <FrameLayout
+        android:id="@+id/menuEstaticoID"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5">
+
+    </FrameLayout>
+
+    <!--Fragment Dinámico-->
+    <FrameLayout
+        android:id="@+id/menuDinamicoID"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        tools:layout="@layout/fragment_menu_dinamico"></FrameLayout>
+
+</LinearLayout>
