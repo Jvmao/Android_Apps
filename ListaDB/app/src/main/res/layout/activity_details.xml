@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.josevicente.listadb.Activities.DetailsActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeDetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/itemNameDetails"
+                android:layout_width="368dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textNameDetails"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="144dp" />
+
+            <TextView
+                android:id="@+id/itemCantidadDetails"
+                android:layout_width="368dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemNameDetails"
+                android:text="@string/quantityDetails"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="144dp" />
+
+            <TextView
+                android:id="@+id/itemDateDetails"
+                android:layout_width="368dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemCantidadDetails"
+                android:text="@string/dateDetails"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="144dp" />
+
+            <TableRow
+                android:id="@+id/tableDetailsID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/itemDateDetails"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/editButtonDetails"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@android:drawable/ic_menu_edit" />
+
+                <Button
+                    android:id="@+id/deleteButtonDetails"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@android:drawable/ic_delete" />
+
+            </TableRow>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

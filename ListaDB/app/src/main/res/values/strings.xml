@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ListaDB</string>
+    <string name="action_settings">Lista</string>
+    <string name="add_item">Agrega un Producto</string>
+    <string name="enter_product">Producto</string>
+    <string name="hint_item">Introduce un Producto</string>
+    <string name="hint_Quantity">Cantidad</string>
+    <string name="button_save">GUARDAR</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="articulo">Artículo</string>
+    <string name="Cantidad">Cantidad</string>
+    <string name="Date">Fecha:</string>
+    <string name="textNameDetails">Nombre</string>
+    <string name="quantityDetails">Cantidad</string>
+    <string name="dateDetails">Fecha</string>
+    <string name="sure_text">Eliminar Elemento?</string>
+    <string name="no">No</string>
+    <string name="yes">YES</string>
+</resources>
