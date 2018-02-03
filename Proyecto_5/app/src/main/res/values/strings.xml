@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Proyecto_5</string>
+    <string name="textSplash">PROYECTO 5</string>
+    <string name="imageViewMenu">Imagen Menú</string>
+    <string name="imageMenu">Icono Menu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tituloDinamico">PROYECTO 5</string>
+    <string name="textNombre">Nombre</string>
+    <string name="editNombre">Escribe tu Nombre</string>
+    <string name="textApellido">Apellido</string>
+    <string name="editApellido">Escribe tu Apellido</string>
+    <string name="textEdad">Edad</string>
+    <string name="editEdad">Escribe tu Edad</string>
+    <string name="textNick">NickName</string>
+    <string name="editNick">Escribe tu Nombre de Usuario</string>
+    <string name="btnJugador">GUARDAR DATOS</string>
+    <string name="textPuntos">Puntos</string>
+</resources>
