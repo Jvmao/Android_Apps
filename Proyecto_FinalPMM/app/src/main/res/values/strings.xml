@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Proyecto FinalPMM</string>
+    <string name="textSplash">PROYECTO FINAL PMM</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imageViewMenu">Imagen Menu</string>
+    <string name="imageMenu">Imagen Icono</string>
+    <string name="tituloDinamico">BIENVENIDO</string>
+    <string name="textNombre">Nombre</string>
+    <string name="editNombre">Escribe tu Nombre</string>
+    <string name="textApellido">Apellido</string>
+    <string name="editApellido">Escribe tu Apellido</string>
+    <string name="textEdad">Edad</string>
+    <string name="editEdad">Escribe tu Edad</string>
+    <string name="textNick">NickName</string>
+    <string name="editNick">Escribe tu Nombre de Usuario</string>
+    <string name="btnJugador">GUARDAR DATOS</string>
+    <string name="textPuntos">Puntos</string>
+    <string name="imageFoto">Foto desde Cámara</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pantallaInicio">Inicio</string>
+    <string name="pantallaPerfil">Perfil</string>
+    <string name="pantallaJuego">Juego</string>
+    <string name="pantallaFoto">Foto</string>
+    <string name="pantallaMapa">Mapa</string>
+    <string name="imageNav">Imagen Navegador</string>
+    <string name="textNav1">Jose Vicente Martí</string>
+    <string name="textNav2">jvmao82@gmail.com</string>
+    <string name="btnDado1">Dado 1</string>
+    <string name="btnDado2">Dado 2</string>
+    <string name="btnDado3">Dado 3</string>
+    <string name="btnDado4">Dado 4</string>
+    <string name="btnDado5">Dado 5</string>
+    <string name="btnDado6">Dado 6</string>
+    <string name="textFoto">HACER FOTO</string>
+</resources>

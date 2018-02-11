@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameFoto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/astronauta1"
+    tools:context="com.josevicente.proyecto_finalpmm.Fragments.FotoFragment">
+
+    <TextView
+        android:id="@+id/textFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:text="@string/textFoto"
+        android:textColor="#FFFF00"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageFoto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textFoto"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|clip_vertical"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/imageFoto"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/camera1x512" />
+
+</RelativeLayout>

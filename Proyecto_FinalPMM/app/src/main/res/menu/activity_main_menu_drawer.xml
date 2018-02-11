@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pantallaInicio"
+            android:icon="@drawable/iniciox50"
+            android:title="@string/pantallaInicio" />
+        <item
+            android:id="@+id/pantallaPerfil"
+            android:icon="@drawable/usuario1x50"
+            android:title="@string/pantallaPerfil" />
+        <item
+            android:id="@+id/pantallaJuego"
+            android:icon="@drawable/gameboyx50"
+            android:title="@string/pantallaJuego" />
+        <item
+            android:id="@+id/pantallaFoto"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/pantallaFoto" />
+
+        <item
+            android:id="@+id/pantallaMapa"
+            android:icon="@drawable/map32"
+            android:title="@string/pantallaMapa" />
+    </group>
+
+</menu>

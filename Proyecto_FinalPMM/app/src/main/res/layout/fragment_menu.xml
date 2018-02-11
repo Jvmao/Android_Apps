@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orangeback3"
+    tools:context="com.josevicente.proyecto_finalpmm.Fragments.MenuFragment">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/imageViewMenu"
+            android:src="@drawable/android1x64" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerMenuID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewMenu"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:scrollbars="vertical" />
+    </RelativeLayout>
+</ScrollView>
