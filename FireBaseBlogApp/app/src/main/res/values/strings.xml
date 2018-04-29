@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FireBaseBlogApp</string>
+    <string name="email">E-Mail</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="crear">Crear Cuenta</string>
+    <string name="postTitleList">Post Title</string>
+    <string name="postTextList">Post Description</string>
+    <string name="dateText">Date</string>
+    <string name="contentImage">Imagen Añadir</string>
+    <string name="postTitle">Titulo</string>
+    <string name="postDescription">Descripción</string>
+    <string name="btnPost">Enviar</string>
+    <string name="userName">Name</string>
+    <string name="userLastName">Last Name</string>
+    <string name="userMail">Mail</string>
+    <string name="userPass">Password</string>
+    <string name="btnCreateUser">Register</string>
+    <string name="imageUser">Imagen Usuario</string>
+</resources>
