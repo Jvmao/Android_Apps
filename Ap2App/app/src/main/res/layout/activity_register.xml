@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenwall1"
+    android:scrollbars="vertical"
+    tools:context="com.josevicente.ap2app.Activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textTituloRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#59E97B"
+            android:fontFamily="@font/broshk"
+            android:gravity="center"
+            android:text="@string/textTituloRegistro"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editNameUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/editNameUser"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/editLastName"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/editAge"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/editMail"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editPass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/editPass1"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editPass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/editPass2"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegistroUsuario"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/roundedbtn1"
+            android:fontFamily="@font/broshk"
+            android:text="@string/btnRegistroUsuario"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</ScrollView>

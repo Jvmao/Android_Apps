@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.josevicente.ap2app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logoapp1x512"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Añadimos Google Maps -->
+
+
+        <!-- Play Services -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDaC0sLSFl40JekIisridnIfP2MFuvO-vc" />
+
+        <!--
+        <meta-data>
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCTGI5tKGqQLCuwnyLlMgLcQwzrJgZYilA"
+        </meta-data>
+        -->
+
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.StartActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.MenuActivity" />
+        <activity android:name=".EcoActivities.EcoActivity" />
+        <activity
+            android:name=".MapsActivities.MapMainActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".GestActivities.GestMainActivity" />
+        <activity android:name=".ShopActivities.ListMainActivity" />
+        <activity android:name=".EcoActivities.GastoActivity" />
+        <activity android:name=".EcoActivities.GestGastoActivity" />
+        <activity android:name=".EcoActivities.ChartsActivity" />
+        <activity android:name=".ShopActivities.ListaProductoActivity" />
+        <activity android:name=".GestActivities.EventoActivity" />
+        <activity android:name=".GestActivities.ContactoActivity" />
+        <activity android:name=".Web.WebActivity"></activity>
+    </application>
+
+</manifest>

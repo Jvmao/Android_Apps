@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ecoLogout"
+        android:title="@string/ecoLogout" />
+    <item
+        android:id="@+id/ecoStart"
+        android:title="@string/ecoStart" />
+    <item
+        android:id="@+id/ecoGasto"
+        android:title="@string/ecoGasto" />
+    <item
+        android:id="@+id/ecoListaGasto"
+        android:title="@string/ecoListaGasto" />
+    <item
+        android:id="@+id/ecoCharts"
+        android:title="@string/ecoCharts" />
+</menu>

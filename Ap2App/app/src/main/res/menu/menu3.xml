@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemLogout"
+        android:title="@string/itemLogout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemMain"
+        android:title="@string/itemMain"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemEco"
+        android:title="@string/itemEco"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemMapa"
+        android:title="@string/itemMapa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemGest"
+        android:title="@string/itemGest"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemLista"
+        android:title="@string/itemLista"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemWeb"
+        android:title="@string/itemWeb"
+        app:showAsAction="never" />
+</menu>

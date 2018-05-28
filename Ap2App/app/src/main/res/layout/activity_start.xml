@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitewall3"
+    android:orientation="vertical"
+    tools:context="com.josevicente.ap2app.Activities.StartActivity">
+
+    <TextView
+        android:id="@+id/textTituloStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/glametrix"
+        android:gravity="center"
+        android:text="@string/textTituloStart"
+        android:textColor="@android:color/black"
+        android:textSize="38sp" />
+
+    <Button
+        android:id="@+id/btnLoginStart"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedbtn1"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="@string/btnLoginStart"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRegistroStart"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedbtn1"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="@string/btnRegistroStart"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/iconStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/iconStart"
+        app:srcCompat="@drawable/multiapp" />
+</LinearLayout>

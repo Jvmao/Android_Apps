@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context="com.josevicente.ap2app.EcoActivities.GestGastoActivity">
+
+    <Spinner
+        android:id="@+id/spinnerGastoMesesID"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:entries="@array/spinnerGastoMes"
+        android:minWidth="@dimen/cardview_compat_inset_shadow" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinnerGastoMesesID">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerGastoID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="170dp"
+            android:layout_weight="0"
+            android:background="@android:color/background_light"
+            android:soundEffectsEnabled="true"
+            android:splitMotionEvents="true"
+            app:layout_behavior="com.josevicente.ap2app.Utils.BottomNavigationViewBehavior"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            app:menu="@menu/menu_eco1_navigation" />
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

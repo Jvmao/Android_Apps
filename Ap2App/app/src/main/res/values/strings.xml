@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">AP2APP</string>
+    <string name="tituloSplash">AP2APP</string>
+    <string name="imageSplash">Imagen Splash</string>
+    <string name="btnLoginStart">LOGIN</string>
+    <string name="btnRegistroStart">REGISTRARSE</string>
+    <string name="textTituloStart">Bienvenido a tu Asistente Personal</string>
+    <string name="iconStart">Icono Inicio</string>
+    <string name="textTituloRegistro">REGISTRO USUARIO</string>
+    <string name="editNameUser">Nombre</string>
+    <string name="editLastName">Apellido</string>
+    <string name="editAge">Edad</string>
+    <string name="editMail">E-Mail</string>
+    <string name="editPass1">Contraseña</string>
+    <string name="editPass2">Repite Contraseña</string>
+    <string name="btnRegistroUsuario">NUEVO USUARIO</string>
+    <string name="inicioMenu1">INICIO</string>
+    <string name="registroMenu1">REGISTRO</string>
+    <string name="loginMenu1">LOGIN</string>
+    <string name="tituloUsuario">LOGIN USUARIO</string>
+    <string name="editMailLogin">Correo Usuario</string>
+    <string name="editPassLogin">Contraseña Usuario</string>
+    <string name="btnStart">INICIO</string>
+    <string name="imageLogin">Imagen Login</string>
+    <string name="logoutMenu2">LOGOUT</string>
+    <string name="tituloMenu">MENU PRINCIPAL</string>
+    <string name="tituloEco">Mi Economía</string>
+    <string name="tituloLoc">Mi Localización</string>
+    <string name="imageBtnEco">Opción Economía</string>
+    <string name="imageBtnMapa">Opción Mapa</string>
+    <string name="tituloGest">Mi Agenda</string>
+    <string name="tituloLista">Mi Lista</string>
+    <string name="imageBtnGest">Mi Gestión</string>
+    <string name="imageBtnLista">Mi Lista</string>
+    <string name="tituloGestEco">GESTIÓN ECONÓMICA</string>
+    <string name="btnAddG">AGREGAR GASTO</string>
+    <string name="btnVerG">VER GASTOS</string>
+    <string name="btnCharts">GRÁFICOS</string>
+    <string name="itemLogout">LOGOUT</string>
+    <string name="itemEco">ECONOMÍA</string>
+    <string name="itemMapa">LOCALIZACIÓN</string>
+    <string name="itemGest">AGENDA</string>
+    <string name="itemLista">LISTA COMPRA</string>
+    <string name="tituloGasto">NUEVO GASTO</string>
+    <string name="editConcepto">Concepto</string>
+    <string name="editImporte">Importe</string>
+    <string name="textMes">Mes</string>
+    <string name="btnGasto">AGREGAR</string>
+    <string name="textConcepto">Concepto</string>
+    <string name="textImporte">Importe</string>
+    <string name="imageEdit">Editar Gasto</string>
+    <string name="imageDelete">Eliminar Gasto</string>
+    <string name="tituloUpdate">ACTUALIZAR GASTO</string>
+    <string name="editConceptoUpdate">Concepto</string>
+    <string name="editMesUpdate">Mes</string>
+    <string name="editImporteUpdate">Importe</string>
+    <string name="btnUpdate">ACTUALIZAR</string>
+    <string name="btnExitUpdate">SALIR</string>
+    <string name="ecoLogout">LOGOUT</string>
+    <string name="ecoStart">MI ECONOMÍA</string>
+    <string name="ecoGasto">NUEVO GASTO</string>
+    <string name="ecoListaGasto">LISTA DE GASTOS</string>
+    <string name="ecoCharts">GRÁFICOS</string>
+    <string name="tituloGrafico">GRÁFICOS</string>
+    <string name="tituloShopList">LISTA DE LA COMPRA</string>
+    <string name="imageBtnItem">Nuevo Producto</string>
+    <string name="tituloNevoProducto">NUEVO PRODUCTO</string>
+    <string name="editNewProducto">Producto</string>
+    <string name="editCantidadItem">Cantidad</string>
+    <string name="btnNewItem">Nuevo Item</string>
+    <string name="btnOutItem">Salir Producto</string>
+    <string name="btnItem">Añadir</string>
+    <string name="btnOut">Salir</string>
+    <string name="imageTrolley">Carro Compra</string>
+    <string name="textProductoLista">Producto</string>
+    <string name="textCantidadLista">Cantidad</string>
+    <string name="textFecha">Añadido</string>
+    <string name="textFechaList">date</string>
+    <string name="imageEditLista">Editar Lista</string>
+    <string name="imageDeleteImage">Eliminar Articulo</string>
+    <string name="tituloUpdateLista">ACTUALIZAR PRODUCTO</string>
+    <string name="editUpdateConcepto">Concepto</string>
+    <string name="editUpdateCantidad">Cantidad</string>
+    <string name="btnUpdateLista">ACTUALIZAR</string>
+    <string name="btnOutUpdate">SALIR</string>
+    <string name="imageBtnListID">Lista de la Compra</string>
+    <string name="textProdLista">Nuevo Producto</string>
+    <string name="textListaCompra">Ver Lista</string>
+    <string name="textDeleteProduct">ELIMINAR LISTA</string>
+    <string name="textQuestionDelete">¿Quieres eliminar la lista completa?</string>
+    <string name="btnDeleteAll">ELIMINAR</string>
+    <string name="btnOutDeleteAll">SALIR</string>
+    <string name="listaLogout">LOGOUT</string>
+    <string name="listaInicio">INICIO LISTA</string>
+    <string name="imageLoginMail">Correo Usuario</string>
+    <string name="imageLoginPass">Password Usuario</string>
+    <string name="tituloAgenda">MI AGENDA</string>
+    <string name="btnMisContactos">MIS CONTACTOS</string>
+
+    <string-array name="spinnerMes">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="spinnerGastoMes">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string name="title_activity_contactos">ContactosActivity</string>
+    <string name="tituloContactos">CONTACTOS</string>
+    <string name="nombreContacto">NOMBRE</string>
+    <string name="apellidoContacto">APELLIDO</string>
+    <string name="telContacto">TELEFONO</string>
+    <string name="mailContacto">E-MAIL</string>
+    <string name="btnAddContact">AGREGAR CONTACTO</string>
+    <string name="btnOutContact">SALIR</string>
+    <string name="btnContact">NUEVO CONTACTO</string>
+    <string name="btnClearContact">REINICIAR</string>
+    <string name="btnMisEventos">MIS EVENTOS</string>
+    <string name="tituloEvento">MIS EVENTOS</string>
+    <string name="editTituloEvento">Título</string>
+    <string name="imageBtnCalendar">Calendario</string>
+    <string name="textoFechaEvento">Fecha Evento</string>
+    <string name="editDescEvento">Descripción</string>
+    <string name="textTitEvento">Título</string>
+    <string name="imageCalendar">Imagen Calendario</string>
+    <string name="textFechaPick">FECHA</string>
+    <string name="textDesc">DESCRIPCIÓN</string>
+    <string name="addNewEvento">Nuevo Evento</string>
+    <string name="outEvent">Salir Evento</string>
+    <string name="imageBtnWatch">Hora Evento</string>
+    <string name="textoHoraEvento">Hora Evento</string>
+    <string name="imageWatch">Imagen Hora</string>
+    <string name="textHoraPick">HORA</string>
+    <string name="contactName">NOMBRE</string>
+    <string name="contactLast">APELLIDO</string>
+    <string name="ContactTel">TELEFONO</string>
+    <string name="contactMail">E-MAIL</string>
+    <string name="tituloContacto">CONTACTOS</string>
+    <string name="imageBtnAddContact">Nuevo Contacto</string>
+    <string name="imageBtnOutContact">Eliminar Usuario</string>
+    <string name="upName">NOMBRE</string>
+    <string name="upLastName">APELLIDO</string>
+    <string name="upTel">TELEFONO</string>
+    <string name="upMail">E-MAIL</string>
+    <string name="upContactHead">ACTUALIZAR CONTACTO</string>
+    <string name="btnUpdateContact">Actualizar Contacto</string>
+    <string name="btnOutUpdateContact">Salir Actualización Contacto</string>
+    <string name="imageEditEvent">Editar Evento</string>
+    <string name="imageDeleteEvent">Eliminar Evento</string>
+    <string name="tituloUpdateEvent">ACTUALIZAR EVENTO</string>
+    <string name="editHeadEvent">TITULO</string>
+    <string name="editDateEvent">FECHA</string>
+    <string name="editTimeEvent">HORA</string>
+    <string name="editDescEvent">DESCRIPCIÓN</string>
+    <string name="imageOkEvent">Evento OK</string>
+    <string name="imageOutEvent">Salir Actualización Evento</string>
+    <string name="gestLogout">LOGOUT</string>
+    <string name="gestStart">MI AGENDA</string>
+    <string name="gestUser">CONTACTOS</string>
+    <string name="gestEvent">EVENTOS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imageMenuMapa">Imagen Menu Mapa</string>
+    <string name="iconoMenuMapa">Icono Menu Mapa</string>
+    <string name="tituloInicioMapa">MIS LOCALIZACIONES</string>
+    <string name="editSearch">Localidad o País</string>
+    <string name="btnSearch">BUSCAR</string>
+    <string name="pharmacyBtn">Farmacias</string>
+    <string name="loc_Info">Localidad o País</string>
+    <string name="imageBtnExitLoc">Salir Localización</string>
+    <string name="btnInicioMenuB">Inicio</string>
+    <string name="btnSalirMenuB">Salir</string>
+    <string name="btnConfMenuB">Configuración</string>
+    <string name="leftArrowEco1">Añadir Gasto</string>
+    <string name="rightArrowWco1">Gráficos</string>
+    <string name="addCostEco">Añadir Gasto</string>
+    <string name="seeCostEco">Ver Gastos</string>
+    <string name="showCharts">Gráficos</string>
+    <string name="btnDeleteListEx">Eliminar Lista</string>
+    <string name="textDeleteCostList">¿Desea eliminar la lista de gastos por completo?</string>
+    <string name="iBtnDeleteCostList">Eliminar Lista de Gastos</string>
+    <string name="iBtnExitCostList">Salir Lista de Gastos</string>
+    <string name="imageBtnMisContactos">Mis Contactos</string>
+    <string name="imageBtnMisEventos">Mis Eventos</string>
+    <string name="textMisContactos">Contactos</string>
+    <string name="textMiAgenda">Agenda</string>
+    <string name="addContactNav">Nuevo Contacto</string>
+    <string name="deleteContactNav">Eliminar Lista</string>
+    <string name="agendaNav">Mi Agenda</string>
+    <string name="addEventNav">Nuevo Evento</string>
+    <string name="deleteEventNav">Eliminar Lista</string>
+    <string name="contactNav">Contactos</string>
+    <string name="textDeleteContactList">¿Desea eliminar la lista de contactos por completo?</string>
+    <string name="textDeleteEventList">¿Desea eliminar la lista de eventos por completo?</string>
+    <string name="addItemList">Nuevo Producto</string>
+    <string name="deleteShopList">Eliminar Lista</string>
+    <string name="exitShopList">Salir</string>
+    <string name="listEcoNav">Lista Gastos</string>
+    <string name="chartEcoNav">Gráficos</string>
+    <string name="exitEcoNav">Salir</string>
+    <string name="imageBtnWeb">Noticias</string>
+    <string name="tituloWeb">Noticias 24h</string>
+    <string name="itemWeb">NOTICIAS</string>
+    <string name="itemMain">MENU PRINCIPAL</string>
+</resources>

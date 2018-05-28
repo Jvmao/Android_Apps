@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/leftArrowEco1"
+        android:icon="@drawable/additem5x50"
+        android:title="@string/leftArrowEco1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btnDeleteListEx"
+        android:icon="@drawable/borrar2x64"
+        android:title="@string/btnDeleteListEx"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/rightArrowEco1"
+        android:icon="@drawable/chart1x50"
+        android:title="@string/rightArrowWco1"
+        app:showAsAction="ifRoom" />
+</menu>

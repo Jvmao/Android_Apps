@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearUpdate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardUpdateID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="#F0E68C"
+        app:cardCornerRadius="@dimen/place_autocomplete_progress_size">
+
+        <LinearLayout
+            android:id="@+id/relativeUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFD700"
+                android:fontFamily="@font/perfectdrown"
+                android:gravity="center"
+                android:text="@string/tituloUpdate"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/editConceptoUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="@string/editConceptoUpdate"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editMesUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="@string/editMesUpdate"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editImporteUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editImporteUpdate"
+                android:inputType="number|numberDecimal" />
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundedbtn1"
+                android:text="@string/btnUpdate" />
+
+            <Button
+                android:id="@+id/btnExitUpdate"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundedbtn1"
+                android:text="@string/btnExitUpdate" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

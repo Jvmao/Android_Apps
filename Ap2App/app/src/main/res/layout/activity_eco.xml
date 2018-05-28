@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitewall3"
+    android:scrollbars="vertical"
+    tools:context="com.josevicente.ap2app.EcoActivities.EcoActivity">
+
+        <LinearLayout
+            android:id="@+id/linearH1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloGestEco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acmesai"
+                android:gravity="center"
+                android:text="@string/tituloGestEco"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/btnAddG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/btnAddG"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/coste1x64" />
+
+            <TextView
+                android:id="@+id/addCostEco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/addCostEco"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/btnVerG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/btnVerG"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/coste2x64" />
+
+            <TextView
+                android:id="@+id/seeCostEco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/seeCostEco"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/btnCharts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/btnCharts"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/coste3x64" />
+
+            <TextView
+                android:id="@+id/showCharts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/showCharts"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.BottomNavigationView
+                    android:id="@+id/navEco1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="70dp"
+                    android:layout_weight="0"
+                    android:background="@android:color/background_light"
+                    android:soundEffectsEnabled="true"
+                    android:splitMotionEvents="true"
+                    app:layout_behavior="com.josevicente.ap2app.Utils.BottomNavigationViewBehavior"
+                    app:layout_scrollFlags="scroll|enterAlways|snap"
+                    app:menu="@menu/menu_main_navigation">
+
+                </android.support.design.widget.BottomNavigationView>
+
+            </android.support.design.widget.CoordinatorLayout>
+
+        </LinearLayout>
+
+
+
+
+</ScrollView>

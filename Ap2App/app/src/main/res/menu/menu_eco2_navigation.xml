@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/listEcoNav"
+        android:icon="@drawable/lista6x64"
+        android:title="@string/listEcoNav"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/chartEcoNav"
+        android:icon="@drawable/chart1x50"
+        android:title="@string/chartEcoNav"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/exitEcoNav"
+        android:icon="@drawable/rightarrow1x32next"
+        android:title="@string/exitEcoNav"
+        app:showAsAction="ifRoom" />
+</menu>

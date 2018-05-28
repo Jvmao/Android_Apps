@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnInicioMenuB"
+        android:icon="@drawable/btninicio2x50"
+        android:title="@string/btnInicioMenuB"
+        app:showAsAction="ifRoom" />
+
+    <!--<item
+        android:id="@+id/btnConfMenuB"
+        android:icon="@drawable/conf1x50"
+        android:title="@string/btnConfMenuB"
+        app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/btnSalirMenuB"
+        android:icon="@drawable/salir2x50"
+        android:title="@string/btnSalirMenuB"
+        app:showAsAction="ifRoom" />
+</menu>

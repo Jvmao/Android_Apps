@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addEventNav"
+        android:icon="@drawable/additem5x50"
+        android:title="@string/addEventNav"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/deleteEventNav"
+        android:icon="@drawable/borrar2x64"
+        android:title="@string/deleteEventNav"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/contactNav"
+        android:icon="@drawable/contact2x64"
+        android:title="@string/contactNav"
+        app:showAsAction="ifRoom" />
+</menu>

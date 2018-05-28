@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardNewItemID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint=" #88eed6 "
+        app:cardCornerRadius="@dimen/place_autocomplete_progress_size"
+        app:cardElevation="@dimen/cardview_default_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloProductoNuevo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background=" #ece210 "
+                android:fontFamily="@font/acmesai"
+                android:gravity="center"
+                android:text="@string/tituloNevoProducto"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editNewProducto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/editNewProducto"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editCantidadItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editCantidadItem"
+                android:inputType="number|numberDecimal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnNewItem"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedbtn2"
+                    android:backgroundTint="@android:color/holo_green_dark"
+                    android:contentDescription="@string/btnNewItem"
+                    android:text="@string/btnItem"
+                    android:textColor="@android:color/background_light" />
+
+                <ImageView
+                    android:id="@+id/imageTrolley"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/imageTrolley"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/trolley3x512" />
+
+                <Button
+                    android:id="@+id/btnOutItem"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedbtn2"
+                    android:backgroundTint="@android:color/holo_red_dark"
+                    android:contentDescription="@string/btnOutItem"
+                    android:text="@string/btnOut"
+                    android:textColor="@android:color/background_light" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

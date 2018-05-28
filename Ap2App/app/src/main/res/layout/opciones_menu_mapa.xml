@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableRowMenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iconoMenuMapa"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/iconoMenuMapa"
+        android:padding="10dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tituloMenuMapa"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/broshk"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</TableRow>

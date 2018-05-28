@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gestLogout"
+        android:title="@string/gestLogout" />
+    <item
+        android:id="@+id/gestStart"
+        android:title="@string/gestStart" />
+    <item
+        android:id="@+id/gestUser"
+        android:title="@string/gestUser" />
+    <item
+        android:id="@+id/gestEvent"
+        android:title="@string/gestEvent" />
+</menu>

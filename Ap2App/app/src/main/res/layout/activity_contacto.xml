@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context="com.josevicente.ap2app.GestActivities.ContactoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tituloContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background=" #3ee19a "
+            android:gravity="center"
+            android:text="@string/tituloContacto"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerContactID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_anchorGravity="bottom|center" />
+
+
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/btmNavContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="170dp"
+                android:layout_weight="0"
+                android:background="@android:color/background_light"
+                android:soundEffectsEnabled="true"
+                android:splitMotionEvents="true"
+                app:layout_behavior="com.josevicente.ap2app.Utils.BottomNavigationViewBehavior"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                app:menu="@menu/menu_gest1_navigation" />
+        </android.support.design.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

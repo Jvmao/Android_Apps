@@ -1,0 +1,35 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitewall3"
+    android:scrollbars="vertical"
+    tools:context="com.josevicente.ap2app.Fragments.MenuMapaFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageMenuMapa"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:contentDescription="@string/imageMenuMapa"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mapmarker3x250" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerMapaID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageMenuMapa"
+            android:layout_marginTop="12dp" />
+
+    </RelativeLayout>
+
+</ScrollView>
